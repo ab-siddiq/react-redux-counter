@@ -1,4 +1,3 @@
-import { act } from "react";
 
 const logger = (state) => (next) => (action) =>{
     console.group(action.type);
